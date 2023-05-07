@@ -1,4 +1,4 @@
-n = int(input("tedad jomalat: "))
+n = int(input("Number of sentences: "))
 x = 0
 y = 1
 print(y, end = " ")
