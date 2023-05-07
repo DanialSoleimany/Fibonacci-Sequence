@@ -4,7 +4,7 @@ def fib_rec(n):
     else:
         return fib_rec(n-1) + fib_rec(n-2)
 
-n = int(input("n: "))
+n = int(input("Number of sentences: "))
 
 for i in range(1, n+1):
     print(fib_rec(i))
